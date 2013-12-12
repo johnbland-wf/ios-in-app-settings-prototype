@@ -14,13 +14,14 @@
 		3F0FD719185A604E00971530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD718185A604E00971530 /* main.m */; };
 		3F0FD71D185A604E00971530 /* TVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD71C185A604E00971530 /* TVTAppDelegate.m */; };
 		3F0FD720185A604E00971530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FD71E185A604E00971530 /* Main.storyboard */; };
-		3F0FD723185A604E00971530 /* TVTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD722185A604E00971530 /* TVTViewController.m */; };
 		3F0FD725185A604E00971530 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FD724185A604E00971530 /* Images.xcassets */; };
 		3F0FD72C185A604E00971530 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FD72B185A604E00971530 /* XCTest.framework */; };
 		3F0FD72D185A604E00971530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FD70C185A604E00971530 /* Foundation.framework */; };
 		3F0FD72E185A604E00971530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FD710185A604E00971530 /* UIKit.framework */; };
 		3F0FD736185A604E00971530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FD734185A604E00971530 /* InfoPlist.strings */; };
 		3F0FD738185A604E00971530 /* TableViewTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD737185A604E00971530 /* TableViewTestingTests.m */; };
+		3F0FD743185A660600971530 /* TVTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD742185A660600971530 /* TVTTableViewController.m */; };
+		3F0FD746185A6CED00971530 /* TVTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FD745185A6CED00971530 /* TVTTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		3F0FD71B185A604E00971530 /* TVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTAppDelegate.h; sourceTree = "<group>"; };
 		3F0FD71C185A604E00971530 /* TVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTAppDelegate.m; sourceTree = "<group>"; };
 		3F0FD71F185A604E00971530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F0FD721185A604E00971530 /* TVTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTViewController.h; sourceTree = "<group>"; };
-		3F0FD722185A604E00971530 /* TVTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTViewController.m; sourceTree = "<group>"; };
 		3F0FD724185A604E00971530 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F0FD72A185A604E00971530 /* TableViewTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0FD72B185A604E00971530 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3F0FD733185A604E00971530 /* TableViewTestingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTestingTests-Info.plist"; sourceTree = "<group>"; };
 		3F0FD735185A604E00971530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F0FD737185A604E00971530 /* TableViewTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestingTests.m; sourceTree = "<group>"; };
+		3F0FD741185A660600971530 /* TVTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTTableViewController.h; sourceTree = "<group>"; };
+		3F0FD742185A660600971530 /* TVTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTTableViewController.m; sourceTree = "<group>"; };
+		3F0FD744185A6CED00971530 /* TVTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTTableViewCell.h; sourceTree = "<group>"; };
+		3F0FD745185A6CED00971530 /* TVTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				3F0FD71B185A604E00971530 /* TVTAppDelegate.h */,
 				3F0FD71C185A604E00971530 /* TVTAppDelegate.m */,
 				3F0FD71E185A604E00971530 /* Main.storyboard */,
-				3F0FD721185A604E00971530 /* TVTViewController.h */,
-				3F0FD722185A604E00971530 /* TVTViewController.m */,
 				3F0FD724185A604E00971530 /* Images.xcassets */,
 				3F0FD713185A604E00971530 /* Supporting Files */,
+				3F0FD741185A660600971530 /* TVTTableViewController.h */,
+				3F0FD742185A660600971530 /* TVTTableViewController.m */,
+				3F0FD744185A6CED00971530 /* TVTTableViewCell.h */,
+				3F0FD745185A6CED00971530 /* TVTTableViewCell.m */,
 			);
 			path = TableViewTesting;
 			sourceTree = "<group>";
@@ -250,8 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0FD743185A660600971530 /* TVTTableViewController.m in Sources */,
 				3F0FD719185A604E00971530 /* main.m in Sources */,
-				3F0FD723185A604E00971530 /* TVTViewController.m in Sources */,
+				3F0FD746185A6CED00971530 /* TVTTableViewCell.m in Sources */,
 				3F0FD71D185A604E00971530 /* TVTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
