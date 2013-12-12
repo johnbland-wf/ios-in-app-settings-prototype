@@ -1,4 +1,4 @@
-ios-inappsettings-prototype
+In-App Settings Prototype
 ===========================
 
-A prototype showing how to the Container View for in-app settings for iOS
+A basic prototype showing how to the Container View for in-app settings for iOS.
