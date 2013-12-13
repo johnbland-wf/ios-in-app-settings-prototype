@@ -203,7 +203,7 @@
 			attributes = {
 				CLASSPREFIX = TVT;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = WebFilings;
+				ORGANIZATIONNAME = Just Me;
 				TargetAttributes = {
 					3F0FD729185A604E00971530 = {
 						TestTargetID = 3F0FD708185A604E00971530;
